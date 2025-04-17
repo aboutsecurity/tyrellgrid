@@ -19,7 +19,7 @@ This project sets up an Nginx server inside a Docker container to host a "Web La
 1. From within this directory, start the application using Docker Compose:
 
    ```bash
-   docker-compose up --build -d
+   docker compose up -d
    ```
 
 2. Visit `http://localhost:8080` in your browser.
@@ -27,13 +27,13 @@ This project sets up an Nginx server inside a Docker container to host a "Web La
 3. To stop and remove the containers, network, and default volumes:
 
    ```bash
-   docker-compose down
+   docker compose down
    ```
 
 4. (Optional) To view real-time logs for the service:
 
    ```bash
-   docker-compose logs -f
+   docker compose logs -f
    ```
 
 ## How it Works
